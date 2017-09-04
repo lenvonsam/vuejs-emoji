@@ -1,12 +1,12 @@
-# vue2-emoji for Vuejs 2.x
-> Vue2.x emoji plugin and autoload fontawesome(version ^4.7.0) and bootstrap(3.2.x)
+# vuejs-emoji for Vuejs 2.x
+> Vue2.x emoji plugin and autoload fontawesome(^4.7.0) and bootstrap(^3.2.x)
 
 
 ## Install
 
 ``` bash
 # install
-$ npm install vue2-emoji --save
+$ npm install vuejs-emoji --save
 
 ```
 
@@ -43,14 +43,14 @@ Vue.use(Vue2Emoji)
 ```
 
 ### SelectCallback & IconConfig
-* ####SelectCallback = selectIcon(val)
+* #### SelectCallback = selectIcon(val)
 SelectCallback function's val is a html content.
 
 ``` html
 <div v-html="val"></div>
 ```
 
-* ####IconConfig is Object
+* #### IconConfig is Object
 
 ``` js
   var iconConfig = {
@@ -64,12 +64,13 @@ SelectCallback function's val is a html content.
 [Font awesome website](http://fontawesome.io/icons/)
 
 > Detail IconConfig
+
 key | default | type | intro
---- | --- | --- |
-placement| 'top' | String | 'top'、'left'、'right'、'bottom'
-size| '30px' | String | also can use rem, eg: '1rem'
-name| 'fa-smile-o'| String | just use font awesome icon name
-color| '#278dff' | String | can use hex、rgb、rgba value
+--- | --- | --- |---|
+placement| 'top' | String | 'top'、'left'、'right'、'bottom'|
+size| '30px' | String | also can use rem, eg: '1rem'|
+name| 'fa-smile-o'| String | just use font awesome icon name|
+color| '#278dff' | String | can use hex、rgb、rgba value|
 
 ## Live Demo
 
