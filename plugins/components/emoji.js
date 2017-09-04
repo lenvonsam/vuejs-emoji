@@ -1,7 +1,7 @@
 import data from './emoji-data.js'
 let emojiData = {}
 Object.values(data).forEach(item => {
-  emojiData = { ...emojiData, ...item }
+  Object.assign(emojiData, item)
 })
 
 /**
