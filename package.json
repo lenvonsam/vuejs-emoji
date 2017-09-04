@@ -12,7 +12,7 @@
     "url": "git+https://github.com/lenvonsam/vuejs-emoji.git"
   },
   "keywords": [
-    "vue2-emoji"
+    "vuejs-emoji"
   ],
   "license": "MIT",
   "bugs": {
