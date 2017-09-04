@@ -1,0 +1,22 @@
+{
+  "name": "vue2-emoji",
+  "description": "Vue2.x emoji plugin and autoload fontawesome",
+  "version": "1.0.0",
+  "author": "sam@thinkingsam.cn",
+  "main": "plugins/index.js",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenvonsam/vue2-emoji.git"
+  },
+  "keywords": [
+    "vue2-emoji"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lenvonsam/vue2-emoji/issues"
+  },
+  "homepage": "https://github.com/lenvonsam/vue2-emoji#readme"
+}
