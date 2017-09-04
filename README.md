@@ -73,7 +73,7 @@ name| 'fa-smile-o'| String | just use font awesome icon name|
 color| '#278dff' | String | can use hex、rgb、rgba value|
 
 ## Live Demo
-![Alt text](arcode.png)
+![Alt text](qrcode.png)
 
 ## Screen Capture
 ![Alt text](vue2emojivedio.gif)
