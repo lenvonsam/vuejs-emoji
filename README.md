@@ -35,7 +35,7 @@ $ vue init webpack my-project
 ### ES6
 
 ``` javascript
-import Vue2Emoji from 'vue2-emoji'
+import Vue2Emoji from 'vuejs-emoji'
 Vue.use(Vue2Emoji)
 ```
 

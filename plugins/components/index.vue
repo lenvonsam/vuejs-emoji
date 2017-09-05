@@ -13,11 +13,13 @@
     props: {
       iconConfig: {
         type: Object,
-        default: {
-          placement: 'top',
-          size: '30px',
-          name: 'fa-smile-o',
-          color: '#278dff'
+        default: () => {
+          return {
+            placement: 'top',
+            size: '30px',
+            name: 'fa-smile-o',
+            color: '#278dff'
+          }
         }
       }
     },
