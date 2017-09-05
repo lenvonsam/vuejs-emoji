@@ -77,6 +77,7 @@ export default {
 .emoji .emoji-controller {
   list-style: none;
   height: 36px;
+  font-size: 14px !important;
   margin-bottom: 0;
   -webkit-padding-start: 0px;
 }
@@ -85,6 +86,7 @@ export default {
   font-size: 12px;
   line-height: 36px;
   cursor: pointer;
+  margin: 0 0 !important;
   text-align: center;
   position: relative;
   border-right: 1px solid #ddd;

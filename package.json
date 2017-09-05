@@ -1,7 +1,7 @@
 {
   "name": "vuejs-emoji",
-  "description": "Vue2.x emoji plugin and autoload fontawesome",
-  "version": "0.1.1",
+  "description": "Vue2.x emoji plugin and autoload font awesome and bootstrap",
+  "version": "0.1.5",
   "author": "sam@thinkingsam.cn",
   "main": "plugins/index.js",
   "scripts": {},
@@ -12,7 +12,10 @@
     "url": "git+https://github.com/lenvonsam/vuejs-emoji.git"
   },
   "keywords": [
-    "vuejs-emoji"
+    "vuejs-emoji",
+    "vuejs-plugin",
+    "emoji",
+    "vuejs"
   ],
   "license": "MIT",
   "bugs": {

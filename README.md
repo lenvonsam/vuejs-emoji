@@ -26,6 +26,9 @@ $ vue init webpack my-project
 
 ### 2、Emoji Resources Download
 
+* Download [static.zip](https://github.com/lenvonsam/vuejs-emoji/raw/master/static.zip)
+* Unzip static.zip file, then override project static folder
+![Alt text](projectstruct.jpg)
 
 ## Usage
 
@@ -43,14 +46,14 @@ Vue.use(Vue2Emoji)
 ```
 
 ### SelectCallback & IconConfig
-* #### SelectCallback = selectIcon(val)
+* SelectCallback = selectIcon(val)
 SelectCallback function's val is a html content.
 
 ``` html
 <div v-html="val"></div>
 ```
 
-* #### IconConfig is Object
+* IconConfig is Object
 
 ``` js
   var iconConfig = {
