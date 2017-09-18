@@ -1,5 +1,5 @@
 import data from './emoji-data.js'
-let emojiData = {}
+var emojiData = {}
 Object.values(data).forEach(function (item) {
   Object.assign(emojiData, item)
 })

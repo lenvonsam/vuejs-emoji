@@ -1,5 +1,5 @@
 import emojiIcon from './components'
-const install = (Vue) => {
+const install = function (Vue) {
   Vue.component('emojiIcon', emojiIcon)
 }
 
