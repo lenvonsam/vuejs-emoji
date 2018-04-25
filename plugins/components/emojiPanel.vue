@@ -67,7 +67,7 @@ export default {
 @import url('../assets/css/iconfont.css');
 @import url('./emoji-sprite.css');
 .emoji {
-  width: 380px;
+  width: 100%;
   height: 180px;
   background: #fff;
   z-index: 10;

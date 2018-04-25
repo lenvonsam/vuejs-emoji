@@ -65,7 +65,7 @@
   .emoji-wrap {
     position: absolute;
     z-index: 20;
-    width: 380px;
+    width: 350px;
     height: 180px;
   }
 
@@ -76,16 +76,27 @@
 
   .emoji-wrap.emoji-left {
     top: 0px;
-    left: -390px;
+    left: -360px;
   }
 
   .emoji-wrap.emoji-right {
     top: -100px;
-    right: -390px;
+    right: -360px;
   }
 
   .emoji-wrap.emoji-bottom {
     top: 30px;
     left: 0px;
+  }
+  @media screen and (max-width: 320px) {
+    .emoji-wrap {
+      width: 300px;
+    }
+    .emoji-wrap.emoji-left {
+      left: -310px;
+    }
+    .emoji-wrap.emoji-right {
+      right: -310px;
+    }
   }
 </style>

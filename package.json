@@ -1,7 +1,7 @@
 {
   "name": "vuejs-emoji",
   "description": "Vue2.x emoji plugin and autoload font awesome and bootstrap",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": "sam@thinkingsam.cn",
   "main": "plugins/index.js",
   "scripts": {},
